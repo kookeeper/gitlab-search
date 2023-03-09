@@ -1,0 +1,4 @@
+/target
+/.settings
+/output
+/src/main/resources/application-*.properties
