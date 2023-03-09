@@ -1,4 +1,4 @@
-package br.com.samaanfilho.gitlab.search.service;
+package br.com.kookeeper.gitlab.search.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,11 +12,12 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpServerErrorException.InternalServerError;
-import org.springframework.web.client.RestTemplate;
 
-import br.com.samaanfilho.gitlab.search.dto.BuscaDTO;
-import br.com.samaanfilho.gitlab.search.json.Project;
-import br.com.samaanfilho.gitlab.search.json.Search;
+import br.com.kookeeper.gitlab.search.dto.BuscaDTO;
+import br.com.kookeeper.gitlab.search.json.Project;
+import br.com.kookeeper.gitlab.search.json.Search;
+
+import org.springframework.web.client.RestTemplate;
 
 @Service
 public class GitLabSearchService {

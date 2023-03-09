@@ -1,4 +1,4 @@
-package br.com.samaanfilho.gitlab.search.service;
+package br.com.kookeeper.gitlab.search.service;
 
 import java.io.BufferedReader;
 import java.io.File;

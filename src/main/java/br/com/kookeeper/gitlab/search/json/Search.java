@@ -1,5 +1,5 @@
 
-package br.com.samaanfilho.gitlab.search.json;
+package br.com.kookeeper.gitlab.search.json;
 
 import java.io.Serializable;
 import java.util.LinkedHashMap;

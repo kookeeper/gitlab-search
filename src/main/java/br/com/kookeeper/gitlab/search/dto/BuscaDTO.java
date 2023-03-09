@@ -1,4 +1,4 @@
-package br.com.samaanfilho.gitlab.search.dto;
+package br.com.kookeeper.gitlab.search.dto;
 
 import java.util.HashMap;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package br.com.samaanfilho.gitlab.search.service;
+package br.com.kookeeper.gitlab.search.service;
 
 import java.util.Arrays;
 import java.util.List;
@@ -11,8 +11,8 @@ import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
 
-import br.com.samaanfilho.gitlab.search.dto.BuscaDTO;
-import br.com.samaanfilho.gitlab.search.json.Project;
+import br.com.kookeeper.gitlab.search.dto.BuscaDTO;
+import br.com.kookeeper.gitlab.search.json.Project;
 
 @Service
 public class InitialService {

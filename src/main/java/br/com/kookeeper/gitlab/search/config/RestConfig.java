@@ -1,4 +1,4 @@
-package br.com.samaanfilho.gitlab.search.config;
+package br.com.kookeeper.gitlab.search.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
