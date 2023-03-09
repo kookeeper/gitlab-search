@@ -5,7 +5,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>br.com.samaanfilho</groupId>
+	<groupId>br.com.kookeeper</groupId>
 	<artifactId>gitlab-search</artifactId>
 	<name>Processo de pesquisa no Gitlab</name>
 	<description>Descrição do projeto</description>
@@ -50,7 +50,7 @@
 				<version>1.2.1</version>
 				<configuration>
 					<sourceDirectory>${basedir}/src/main/resources/json</sourceDirectory>
-					<targetPackage>br.com.samaanfilho.gitlab.search.json</targetPackage>
+					<targetPackage>br.com.kookeeper.gitlab.search.json</targetPackage>
 					<outputDirectory>${basedir}/src/main/java</outputDirectory>
 					<sourceType>json</sourceType>
 					<serializable>true</serializable>
