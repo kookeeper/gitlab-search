@@ -1,7 +1,7 @@
 [
 	{
 		"basename": "etc/openshift/backoffice-dev/deployment",
-		"data": "KAFKA_BOOTSTRAP_SERVERS=10.1.110.129:9092,10.1.110.130:9092,10.1.110.131:9092\nKAFKA_SCHEMA_REGISTRY_URL=https://schemaregistry-broker-dev.sascar.com.br:8081\nTOPIC_NAME=device-commands-dev\nKAFKA_USER=device-actuators\nKAFKA_PASSWORD=AqkwWRfSXVrRtCPUbBAR7Q==\n",
+		"data": "KAFKA_BOOTSTRAP_SERVERS=10.1.110.129:9092,10.1.110.130:9092,10.1.110.131:9092\nKAFKA_SCHEMA_REGISTRY_URL=https://schemaregistry-broker-dev.<server>:8081\nTOPIC_NAME=device-commands-dev\nKAFKA_USER=device-actuators\nKAFKA_PASSWORD=AqkwWRfSXVrRtCPUbBAR7Q==\n",
 		"path": "etc/openshift/backoffice-dev/deployment.env",
 		"filename": "etc/openshift/backoffice-dev/deployment.env",
 		"id": null,
@@ -11,7 +11,7 @@
 	},
 	{
 		"basename": "etc/openshift/backoffice-hom/deployment",
-		"data": "KAFKA_BOOTSTRAP_SERVERS=10.1.101.169:9092,10.1.101.170:9092,10.1.101.171:9092\nKAFKA_SCHEMA_REGISTRY_URL=https://schemaregistry-broker-hom.sascar.com.br:8081\nTOPIC_NAME=device-commands\nKAFKA_USER=device-actuators\nKAFKA_PASSWORD=eGT9WtTaNJeaf1Q6j7Jm9Q==\n",
+		"data": "KAFKA_BOOTSTRAP_SERVERS=10.1.101.169:9092,10.1.101.170:9092,10.1.101.171:9092\nKAFKA_SCHEMA_REGISTRY_URL=https://schemaregistry-broker-hom.<server>:8081\nTOPIC_NAME=device-commands\nKAFKA_USER=device-actuators\nKAFKA_PASSWORD=eGT9WtTaNJeaf1Q6j7Jm9Q==\n",
 		"path": "etc/openshift/backoffice-hom/deployment.env",
 		"filename": "etc/openshift/backoffice-hom/deployment.env",
 		"id": null,
@@ -21,7 +21,7 @@
 	},
 	{
 		"basename": "etc/openshift/backoffice-prd/deployment",
-		"data": "KAFKA_BOOTSTRAP_SERVERS=app-kafka01.sascar.com.br:9092,app-kafka02.sascar.com.br:9092,app-kafka03.sascar.com.br:9092\nKAFKA_SCHEMA_REGISTRY_URL=https://schemaregistry-broker.sascar.com.br:8081\nTOPIC_NAME=device-commands\nKAFKA_USER=device-actuators\nKAFKA_PASSWORD=+xnDL7AMoDkNaMXz5Vfpwg==\n",
+		"data": "KAFKA_BOOTSTRAP_SERVERS=app-kafka01.<server>:9092,app-kafka02.<server>:9092,app-kafka03.<server>:9092\nKAFKA_SCHEMA_REGISTRY_URL=https://schemaregistry-broker.<server>:8081\nTOPIC_NAME=device-commands\nKAFKA_USER=device-actuators\nKAFKA_PASSWORD=+xnDL7AMoDkNaMXz5Vfpwg==\n",
 		"path": "etc/openshift/backoffice-prd/deployment.env",
 		"filename": "etc/openshift/backoffice-prd/deployment.env",
 		"id": null,
@@ -41,7 +41,7 @@
 	},
 	{
 		"basename": "src/main/resources/application-dev",
-		"data": "\nspring.kafka.producer.schema-registry=https://schemaregistry-broker-dev.sascar.com.br:8081\nspring.kafka.producer.topic=device-commands\nspring.kafka.producer.username=device-actuators\nspring.kafka.producer.password=AqkwWRfSXVrRtCPUbBAR7Q==\n",
+		"data": "\nspring.kafka.producer.schema-registry=https://schemaregistry-broker-dev.<server>:8081\nspring.kafka.producer.topic=device-commands\nspring.kafka.producer.username=device-actuators\nspring.kafka.producer.password=AqkwWRfSXVrRtCPUbBAR7Q==\n",
 		"path": "src/main/resources/application-dev.properties",
 		"filename": "src/main/resources/application-dev.properties",
 		"id": null,
@@ -51,7 +51,7 @@
 	},
 	{
 		"basename": "src/test/resources/application-integration-tests",
-		"data": "spring.kafka.producer.bootstrap-servers=10.1.110.129:9092,10.1.110.130:9092,10.1.110.131:9092\nspring.kafka.producer.schema-registry=https://schemaregistry-broker-dev.sascar.com.br:8081\nspring.kafka.producer.topic=device-commands\nspring.kafka.producer.username=device-actuators\nspring.kafka.producer.password=AqkwWRfSXVrRtCPUbBAR7Q==\n",
+		"data": "spring.kafka.producer.bootstrap-servers=10.1.110.129:9092,10.1.110.130:9092,10.1.110.131:9092\nspring.kafka.producer.schema-registry=https://schemaregistry-broker-dev.<server>:8081\nspring.kafka.producer.topic=device-commands\nspring.kafka.producer.username=device-actuators\nspring.kafka.producer.password=AqkwWRfSXVrRtCPUbBAR7Q==\n",
 		"path": "src/test/resources/application-integration-tests.properties",
 		"filename": "src/test/resources/application-integration-tests.properties",
 		"id": null,
